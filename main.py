@@ -2,9 +2,9 @@ import telebot
 from openai import OpenAI
 
 # Initialize the bot and DALL-E client
-bot_token = 'YOUR TOKEN FROM TELEGRAM'
-client = OpenAI(api_key="YOUR TOKEN FROM OPENAI")
-bot = telebot.TeleBot(bot_token)
+bot_token = '6980762669:AAFW0Khfcqv87x5I6dvTsTn0viMp5AOQoMg'
+client = OpenAI(api_key="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")
+bot = telebot.TeleBot( 6980762669:AAFW0Khfcqv87x5I6dvTsTn0viMp5AOQoMg)
 
 awaiting_prompt = set()
 
